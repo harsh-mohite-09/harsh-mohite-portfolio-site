@@ -185,3 +185,13 @@ iframe {
   color: #0d9488;
   width: 25%;
 }
+
+.battery {
+  margin-top: 0;
+}
+
+.light-1 {
+  font-weight: normal;
+  color: #0d9488;
+  width: 30%;
+}

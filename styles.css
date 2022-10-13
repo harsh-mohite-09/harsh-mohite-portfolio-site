@@ -109,8 +109,10 @@ span {
 
 .blog-main {
   width: 700px;
-  text-align: left;
+  text-align: center;
   margin: 20px auto;
+  font-weight: 700;
+  /* color: #0d9488; */
 }
 
 .link {
@@ -155,4 +157,31 @@ a {
 
 a:hover {
   color: #fb7185;
+}
+
+.blog-header {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.blog-para {
+  width: 700px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+iframe {
+  border: 10px solid #0d9488;
+  border-radius: 2em;
+}
+
+.book-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.light {
+  font-weight: normal;
+  color: #0d9488;
+  width: 25%;
 }

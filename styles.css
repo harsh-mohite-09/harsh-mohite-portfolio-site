@@ -16,7 +16,7 @@ ul {
 
 li {
   display: inline-block;
-  padding: 0 20px 30px 20px;
+  padding: 0 10px 20px 10px;
   font-size: 1.2em;
 }
 
@@ -60,7 +60,8 @@ li {
 }
 
 img {
-  height: 400px;
+  width: 500px;
+  max-width: 80%;
   margin-top: 50px;
 }
 
@@ -127,6 +128,7 @@ span {
 
 .blog-intro {
   width: 700px;
+  max-width: 80%;
   text-align: center;
   margin: 20px auto;
 }

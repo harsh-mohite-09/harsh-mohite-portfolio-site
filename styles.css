@@ -3,11 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 ul {
   overflow: hidden;
   text-align: end;
@@ -85,27 +80,6 @@ span {
   border-radius: 1em;
 }
 
-.link {
-  display: inline-block;
-  border-radius: 1.5em;
-  font-size: 1em;
-  padding: 10px 20px;
-  margin-top: 15px;
-  width: 100px;
-  margin: 0 10px;
-}
-
-.link-primary {
-  border: none;
-  background-color: #0d9488;
-  color: white;
-}
-
-.link-secondary {
-  color: #0d9488;
-  border: 1px solid #0d9488;
-}
-
 .footer-sub {
   background-color: #0d9488;
   margin-top: 20px;
@@ -137,4 +111,48 @@ span {
   width: 700px;
   text-align: left;
   margin: 20px auto;
+}
+
+.link {
+  display: inline-block;
+  border-radius: 1.5em;
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-top: 15px;
+  width: 100px;
+  margin: 0 10px;
+  transition: all 0.1s ease;
+}
+
+.link-primary {
+  border: none;
+  background-color: #0d9488;
+  color: white;
+  border: 1px solid #0d9488;
+}
+
+.link-secondary {
+  color: #0d9488;
+  border: 1px solid #0d9488;
+}
+
+.link-primary:hover {
+  color: #0d9488;
+  border: 1px solid #0d9488;
+  background-color: white;
+}
+
+.link-secondary:hover {
+  color: white;
+  background-color: #0d9488;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ease;
+}
+
+a:hover {
+  color: #fb7185;
 }

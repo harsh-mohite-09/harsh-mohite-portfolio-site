@@ -170,6 +170,12 @@ a:hover {
   margin: 20px auto;
 }
 
+.project-para {
+  width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
 iframe {
   border: 10px solid #0d9488;
   border-radius: 2em;

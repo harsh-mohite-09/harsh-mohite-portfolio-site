@@ -36,6 +36,13 @@ li {
   justify-content: center;
 }
 
+.footer-two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .nav-sub,
 .header-sub,
 .container-sub,

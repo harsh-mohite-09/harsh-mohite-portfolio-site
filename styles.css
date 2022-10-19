@@ -1,18 +1,68 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
   overflow: hidden;
   text-align: end;
   margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-list {
+  justify-content: center;
 }
 
 li {
   display: inline-block;
-  padding: 0 10px 20px 10px;
+  padding: 0 10px 0px 10px;
   font-size: 1.2em;
+  transition: all 0.1s ease;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  ul {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8em;
+  }
+
+  .footer-list {
+    align-items: center;
+  }
+
+  .project-para {
+    display: none;
+  }
+
+  .header-name {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+li:hover {
+  position: relative;
+  transform: translateY(-3px);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ease;
+}
+
+a:hover {
+  color: #fb7185;
 }
 
 .nav-bold {
@@ -37,10 +87,7 @@ li {
 }
 
 .footer-two {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  margin-top: auto;
 }
 
 .nav-sub,
@@ -99,27 +146,8 @@ span {
   margin-top: 40px;
 }
 
-.footer-list {
-  text-align: center;
-}
-
 .font-small {
   font-size: smaller;
-}
-
-.blog-intro {
-  width: 700px;
-  max-width: 80%;
-  text-align: center;
-  margin: 20px auto;
-}
-
-.blog-main {
-  width: 700px;
-  text-align: center;
-  margin: 20px auto;
-  font-weight: 700;
-  /* color: #0d9488; */
 }
 
 .link {
@@ -156,29 +184,38 @@ span {
   background-color: #0d9488;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  transition: all 0.1s ease;
-}
-
-a:hover {
-  color: #fb7185;
-}
-
 .blog-header {
   margin-top: 50px;
   margin-bottom: 0;
 }
 
-.blog-para {
+.blog-intro {
   width: 700px;
-  text-align: left;
+  max-width: 80%;
+  text-align: center;
   margin: 20px auto;
 }
 
+.blog-main {
+  width: 40%;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  min-width: 400px;
+  text-align: center;
+  /* color: #0d9488; */
+}
+
+.blog-para {
+  width: 37%;
+  text-align: left;
+  margin: 30px auto;
+  min-width: 400px;
+}
+
 .project-para {
-  width: 600px;
+  width: 40%;
+  min-width: 300px;
   text-align: center;
   margin: 20px auto;
 }
@@ -197,10 +234,13 @@ iframe {
   font-weight: normal;
   color: #0d9488;
   width: 25%;
+  min-width: 200px;
 }
 
 .battery {
   margin-top: 0;
+  width: 20%;
+  min-width: 300px;
 }
 
 .light-1 {

@@ -12,3 +12,4 @@ I am on the path to be a self-taught web developer. For now, I know:
 1. JavaScript
 1. NodeJS
 1. ReactJS
+1. GitHub
